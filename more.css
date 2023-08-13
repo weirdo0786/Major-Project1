@@ -1,0 +1,22 @@
+body {
+    background-image: url('more1.jpeg');
+    background-size: cover;
+    /* margin-bottom: 10px; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin-bottom: 19px;
+  }
+  a:hover{
+    color: red;
+    display: flex;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  @media (max-width:450px){
+    html{
+        /* hidden */
+        width: 50%;
+    }
+}
